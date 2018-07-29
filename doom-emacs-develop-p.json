@@ -11,6 +11,6 @@
         "bin\\doom.cmd"
     ],
     "post_install": [
-        "test"
+        ""
     ]
 }
