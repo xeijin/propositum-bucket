@@ -11,7 +11,7 @@
         [ "regfont.exe", "regfont" ]
     ],
     "checkver": {
-        "url": "https://github.com/dcpurton/regfont",
+        "url": "https://github.com/dcpurton/regfont/releases/latest",
         "re": "regfont-\\d{8}"
     },
     "autoupdate": {
