@@ -11,7 +11,7 @@ You may find these manifests instructional in automating the installation of any
 If you wish to use the repo directly, [[https://scoop.sh][install scoop]] then in =powershell= or =cmd.exe= enter the following command to add the new bucket
 
 #+BEGIN_SRC powershell
-  scoop bucket add 'https://github.com/xeijin/propositum-bucket.git'
+  scoop bucket add propositum 'https://github.com/xeijin/propositum-bucket.git'
 #+END_SRC
 
 Note that all of the components in this repo have the suffix =-p= appended (to avoid conflict with the main and extras scoop repos).
