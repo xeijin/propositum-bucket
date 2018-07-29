@@ -6,9 +6,9 @@ This repository stores [[https://github.com/lukesampson/scoop][scoop]] manifest 
 
 You may find these manifests instructional in automating the installation of any of these components with scoop. I recommend forking this repo or copying the contents of a given manifest to your own, as these manifest files are often heavily customised to suit my own needs.
 
-* Usage / Installation
+* Usage
 
-If you wish to use the repo directly, [[https://scoop.sh][install scoop]] then in =powershell= or =cmd.exe= enter the following command:
+If you wish to use the repo directly, [[https://scoop.sh][install scoop]] then in =powershell= or =cmd.exe= enter the following command to add the new bucket
 
 #+BEGIN_SRC powershell
   scoop bucket add 'https://github.com/xeijin/propositum-bucket.git'
