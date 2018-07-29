@@ -9,16 +9,16 @@
     "extract_dir": "TextEditorAnywhere",
     "checkver": {
         "url": "https://www.listary.com/text-editor-anywhere",
-        "re": "Current Version: ([\\d]+)"
+        "re": "Current Version: (\\d+\\.)?(\\d+\\.)?(\\*|\\d+)"
     },
     "shortcuts": [
-         [
+        [
             "TextEditorAnywhere.exe",
             "propositum/Text Editor Anywhere"
         ]
     ],
-   "autoupdate": {
-       "url": "https://www.listary.com/download/TEAPortable.zip",
-       "extract_dir": "TextEditorAnywhere"
+    "autoupdate": {
+        "url": "https://www.listary.com/download/TEAPortable.zip",
+        "extract_dir": "TextEditorAnywhere"
     }
 }
