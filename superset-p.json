@@ -5,7 +5,8 @@
     "version": "0.26.3",
     "url": "https://pypi.org/project/superset/",
     "depends": [
-        "winpython", "imagemagick"
+        "winpython",
+        "imagemagick"
     ],
     "pre_install": [
         "[Environment]::SetEnvironmentVariable('PIPENV_VENV_IN_PROJECT', '1')",
@@ -46,12 +47,14 @@
         "url": "https://pypi.org/project/superset",
         "re": "superset ([\\d.]+)"
     },
-    "shortcuts": [[
-        "Superset.bat",
-        "propositum\\Superset",
-        "",
-        "favicon.ico"
-    ]],
+    "shortcuts": [
+        [
+            "Superset.bat",
+            "propositum\\Superset",
+            "",
+            "favicon.ico"
+        ]
+    ],
     "autoupdate": {
         "url": "https://pypi.org/project/superset/"
     }

@@ -19,12 +19,14 @@
     "checkver": {
         "github": "https://github.com/densitydesign/raw"
     },
-    "shortcuts": [[
-        "RAWGraphs.bat",
-        "propositum\\RAWGraphs",
-        "",
-        "favicon.ico"
-    ]],
+    "shortcuts": [
+        [
+            "RAWGraphs.bat",
+            "propositum\\RAWGraphs",
+            "",
+            "favicon.ico"
+        ]
+    ],
     "autoupdate": {
         "url": "https://github.com/densitydesign/raw/archive/v$version.zip",
         "extract_dir": "raw-$version"
