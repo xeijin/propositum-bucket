@@ -1,15 +1,15 @@
 {
-    "homepage": "http://www.listary.com/text-editor-anywhere",
+    "homepage": "https://www.listary.com/text-editor-anywhere",
     "description": "Usage: make text fields and inputs editable with emacs and other text editors",
     "_comment": "Categorisation: Standalone tool",
     "license": "Freeware",
     "version": "2.01",
-    "url": "http://www.listary.com/download/TEAPortable.zip",
+    "url": "https://www.listary.com/download/TEAPortable.zip",
     "hash": "",
     "extract_dir": "TextEditorAnywhere",
     "checkver": {
-        "url": "http://www.listary.com/text-editor-anywhere",
-        "re": "Current Version: (\\d+\\.\\d+)"
+        "url": "https://www.listary.com/text-editor-anywhere",
+        "re": "Current Version: ([\\d]+)"
     },
     "shortcuts": [
          [
@@ -18,7 +18,7 @@
         ]
     ],
    "autoupdate": {
-       "url": "http://www.listary.com/download/TEAPortable.zip",
+       "url": "https://www.listary.com/download/TEAPortable.zip",
        "extract_dir": "TextEditorAnywhere"
     }
 }
