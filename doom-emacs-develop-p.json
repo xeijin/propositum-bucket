@@ -8,7 +8,7 @@
     "url": "https://github.com/hlissner/doom-emacs/archive/develop.zip",
     "extract_dir": "doom-emacs-develop",
     "bin": [
-        "bin\\doom.cmd",
+        "bin\\doom.cmd"
     ],
     "post_install": [
         "test"
