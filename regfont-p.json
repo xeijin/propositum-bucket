@@ -14,8 +14,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/dcpurton/regfont/releases/latest",
-        "re": "regfont-\\d{8}"
+        "github": "https://github.com/dcpurton/regfont",
+        "re": "regfont-(\\d{8})"
     },
     "autoupdate": {
         "url": "https://github.com/dcpurton/regfont/releases/download/regfont-$version/regfont-$version-x86_64.zip",
