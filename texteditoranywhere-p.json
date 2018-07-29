@@ -9,7 +9,7 @@
     "extract_dir": "TextEditorAnywhere",
     "checkver": {
         "url": "https://www.listary.com/text-editor-anywhere",
-        "re": "Current Version: (\\d+\\.)?(\\d+\\.)?(\\*|\\d+)"
+        "re": "Current Version: (\\d+\\.\\d+)"
     },
     "shortcuts": [
         [
