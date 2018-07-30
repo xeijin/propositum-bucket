@@ -3,7 +3,7 @@
     "license": "MIT",
     "version": "nightly",
     "depends": [
-        "make"
+        "make", "emacs-p"
     ],
     "url": "https://github.com/hlissner/doom-emacs/archive/develop.zip",
     "extract_dir": "doom-emacs-develop",
