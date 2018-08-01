@@ -21,7 +21,7 @@
     "installer": {
         "script": [
             "Push-Location $dir",
-            "Write-Host \"** ERROR ACTION VALUE IS $errorActionPreference **\""
+            "Write-Host \"** ERROR ACTION VALUE IS $errorActionPreference **\"",
             "pipenv install superset",
             ".venv/Scripts/fabmanager create-admin --app superset --username propositum --firstname Propositum --lastname Admin --email propositum@propositum --password $env:supersetpassword",
             "pipenv run python .venv/Scripts/superset db upgrade",
