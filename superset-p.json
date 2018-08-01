@@ -9,6 +9,7 @@
         "imagemagick"
     ],
     "pre_install": [
+        "Write-Host \"** ERROR ACTION VALUE IS $errorActionPreference **\"",
         "[Environment]::SetEnvironmentVariable('PIPENV_VENV_IN_PROJECT', '1')",
         "if(-not $env:supersetpassword) {$env:supersetpassword = [string]$env:USERNAME.ToLower()}",
         "pip install pipenv cryptography",
@@ -21,7 +22,6 @@
     "installer": {
         "script": [
             "Push-Location $dir",
-            "Write-Host \"** ERROR ACTION VALUE IS $errorActionPreference **\"",
             "pipenv install superset",
             ".venv/Scripts/fabmanager create-admin --app superset --username propositum --firstname Propositum --lastname Admin --email propositum@propositum --password $env:supersetpassword",
             "pipenv run python .venv/Scripts/superset db upgrade",
