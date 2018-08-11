@@ -9,6 +9,8 @@
         "imagemagick"
     ],
     "pre_install": [
+        "$errorActionPreference = 'silentlyContinue'",
+        "Write-Host \"** ERROR ACTION VALUE IS $errorActionPreference **\"",
         "[Environment]::SetEnvironmentVariable('PIPENV_VENV_IN_PROJECT', '1')",
         "if(-not $env:supersetpassword) {$env:supersetpassword = [string]$env:USERNAME.ToLower()}",
         "pip install pipenv cryptography",
