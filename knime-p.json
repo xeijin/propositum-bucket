@@ -1,6 +1,7 @@
 {
     "homepage": "https://www.knime.com/",
-    "description": "KNIME Analytics Platform: open source software for creating data science applications and services. Intuitive, open, and continuously integrating new developments, KNIME makes understanding data and designing data science workflows and reusable components accessible to everyone."
+    "description": "Usage: data pipelines, transformation, automation & reporting",
+    "_comment": "Categorisation: Loosely Coupled with internal code (e.g. internal REST APIs)",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://www.knime.com/downloads/full-license"
