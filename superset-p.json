@@ -5,7 +5,7 @@
     "version": "0.26.3",
     "url": "https://pypi.org/project/superset/",
     "depends": [
-        "winpython",
+        "miniconda3",
         "imagemagick"
     ],
     "pre_install": [
