@@ -10,9 +10,11 @@
         "nodejs",
         "yarn"
     ],
-    "suggest": [
-        "extras/miniconda3"
-    ],
+    "suggest": {
+        "Python 3 Installation (for running the web server)": [
+            "extras/miniconda3"
+        ],
+    }
     "extract_dir": "raw-1.3.0",
     "pre_install": "Push-Location $dir; 'START \"RAWGraphs Server: Close when finished\" cmd /c \"COLOR FA && echo. & echo.Starting RAWGraphs ... your browser will open shortly. & echo. && python -m http.server 4000\" && START /MIN cmd /c \"TIMEOUT 5 && start chrome http://localhost:4000\"' | Out-File 'RAWGraphs.bat' -Encoding ASCII; Pop-Location",
     "post_install": "Push-Location $dir; yarn add bower; yarn bower install; Pop-Location",
