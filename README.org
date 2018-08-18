@@ -1,4 +1,4 @@
-#+TITLE: propositum scoop bucket
+#+TITLE: propositum | =scoop= bucket
 
 * Purpose
 
