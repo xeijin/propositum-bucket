@@ -1,7 +1,5 @@
 #+TITLE: propositum | =scoop= bucket
 
-* Purpose
-
 This repository stores [[https://github.com/lukesampson/scoop][scoop]] manifest files in JSON format. The manifest files are used to install and configure the different components of the [[https://github.com/xeijin/propositum][propositum]]. In some cases these are simply modified versions of the relevant manifest files from the main scoop bucket.
 
 You may find these manifests instructional in automating the installation of any of these components with scoop. I recommend forking this repo or copying the contents of a given manifest to your own, as these manifest files are often heavily customised to suit my own needs.
