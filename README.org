@@ -19,3 +19,21 @@ To install an app
 #+BEGIN_SRC powershell
   scoop install knime-p
 #+END_SRC
+
+* Updating
+
+To check which components have an update available, run the following command in Powershell from the root of the git repository
+
+#+BEGIN_SRC powershell
+.\bin\checkver.ps1
+#+END_SRC
+
+To update all components, run the following command
+
+#+BEGIN_SRC powershell
+.\bin\checkver.ps1 -u *
+#+END_SRC
+
+Note this may take some time as for some components the entire file will need to be downloaded & hashed.
+
+Then =git commit= and =git push= to update the repository, this will kick-off the build, which lints the json files.
