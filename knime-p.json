@@ -27,7 +27,7 @@
     "post_install": [
         "Push-Location $dir",
         "$fullVer = [system.version]$version",
-        "$pluginVer = [string]$fullVer.Major + '.' + [string]$fullVer.Minor",
+        "$pluginVer = [string]$fullVer.Major + '.' + [string]$fullVer.Minor + '.' + [string]$fullVer.Build",
         "$installPlugins = './eclipsec.exe --launcher.ini knime.ini -application org.eclipse.equinox.p2.director -noSplash -repository http://update.knime.com/analytics-platform/{0},http://update.knime.com/store/{0},http://update.knime.com/community-contributions/trusted/{0} -installIU org.knime.features.ext.chromium.feature.group,org.knime.features.ext.exttool.feature.group,org.knime.features.exttool.feature.group,org.knime.features.base.filehandling.feature.group,org.knime.features.ext.birt.feature.group,org.knime.features.js.views.feature.group,org.knime.features.js.views.labs.feature.group,org.knime.features.ext.jfreechart.feature.group,org.knime.features.network.feature.group,org.pasteur.pf2.ngs.feature.feature.group,org.knime.features.ext.perl.feature.group,com.knime.features.enterprise.client.exampleserver.feature.group,org.knime.features.python2.feature.group,com.knime.features.reporting.designer.feature.group,org.knime.features.rest.feature.group,com.knime.features.explorer.serverspace.feature.group,org.knime.features.ext.svg.feature.group,org.knime.features.ext.tableau.feature.group,org.knime.features.ext.textprocessing.feature.group,org.knime.features.ext.webservice.client.feature.group,ws.palladian.nodes.feature.feature.group,com.vernalis.knime.feature.feature.group' -f $pluginVer",
         "Invoke-Expression -Command $installPlugins",
         "Pop-Location"
