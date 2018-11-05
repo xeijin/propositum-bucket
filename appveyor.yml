@@ -12,9 +12,6 @@ init:
   - ps: (get-psprovider 'FileSystem').Home = 'c:\projects\'
   - ps: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
   - ps: Install-Module -Name Pester -Repository PSGallery -Force
-  - ps: .\bin\checkver.ps1 -u *
-  - ps: git commit
-  - ps: git push
 
 build: off
 
