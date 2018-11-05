@@ -2,8 +2,8 @@
     "homepage": "https://superset.incubator.apache.org/",
     "description": "Usage: data analysis, exploration, dashboarding",
     "_comment": "Categorisation: Standalone Tool",
-    "version": "0.27.0",
-    "hash": "58f94fd64d2f0a7dee89addb3462d7e9b0db5da3e901dbd0614cdca70976eb09",
+    "version": "0.28.1",
+    "hash": "8c246713a1b0909f61f51c24e2eeaadf3a801507798e00fd19fd931395ffd306",
     "url": "https://pypi.org/project/superset/",
     "depends": [
         "miniconda3",
